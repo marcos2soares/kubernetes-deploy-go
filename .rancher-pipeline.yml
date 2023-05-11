@@ -19,8 +19,6 @@ stages:
   steps:
   - applyYamlConfig:
       path: ./deployment.yaml
-    env:
-      AMBIENTE: appdev
 branch:
   include:
   - prod
